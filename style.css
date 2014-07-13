@@ -82,7 +82,7 @@ header a {
 }
 
 
-header a:hoover {
+header a:hover {
 	color: #000;
 }
 
@@ -101,11 +101,6 @@ input {
 input:focus {
 	border: 1px solid #4285F4;	
 }
-
-input:active {
-	border: 1px solid #4285F4;	
-}
-
 
 footer a {
 	color: #666;
@@ -126,11 +121,11 @@ header a.applications {
 	background-position: -69px -854px;
 	width: 30px;
 	height: 30px;
-	/*background-size: 100% 100%;*/
+	opacity: 0.55;
 }
 
 header a.applications:hover {
-	/*background-image: url('https://ssl.gstatic.com/gb/images/v2_0b3bd130.png');*/
+	opacity: 1;
 }
 
 header a.connexion {
