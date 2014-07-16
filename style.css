@@ -33,6 +33,12 @@ header {
 
 .header {
 	line-height: 30px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;	
 }
 
 header, footer {
@@ -141,9 +147,16 @@ header a.connexion {
 
 .search-button {
 	text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .search-button a {
+	font-size: font: 13px/27px Arial,sans-serif;
 	border-radius: 2px;
 	display: inline-block;
 	color: #444;
@@ -152,10 +165,11 @@ header a.connexion {
 	text-decoration: none;
 	font-size: 11px;
 	font-weight: bold;
-	margin: 8px 18px 8px 16px;
-	padding: 0 8px 0 8px;
-	height: 29px;
-	line-height: 29px;
+	margin: 8px 6px 8px 6px;
+	padding: 0 10px 0 10px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
 }
 
 .search-button a:hover {
@@ -189,9 +203,15 @@ header a.connexion {
 	margin: 0 auto 0 auto;
 	position: relative;
 	border: 0 none transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-.language {
+.country {
 	color:#777;
 	font-size:16px;
 	font-weight: bold;
